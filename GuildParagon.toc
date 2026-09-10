@@ -1,0 +1,70 @@
+## Interface: 120100
+## Title: Guild Paragon
+## Notes: A modern rebuild of guild roster management — audit, alts, sync, and more.
+## Author: Earthenmist
+## Version: 1.3.1-Release
+## Category: Guild
+## IconTexture: Interface\AddOns\GuildParagon\Media\GuildParagonIcon
+
+## X-Curse-Project-ID: 1644578
+## X-Wago-ID: nGv7AqNx
+## SavedVariables: GuildParagonDB
+## OptionalDeps: GuildParagonCompanionData
+
+Libs\Libs.xml
+
+Locales\enUS.lua
+
+Core\Core.lua
+Core\Safe.lua
+Core\ChatPattern.lua
+Core\PerfTrace.lua
+Core\FrameWork.lua
+
+Modules\EventLog.lua
+Modules\CustomNotes.lua
+Modules\Labels.lua
+Modules\GRMImport.lua
+Modules\Roster.lua
+Modules\Alts.lua
+Modules\Nicknames.lua
+Modules\GuildChat.lua
+Modules\GuildSync.lua
+Modules\SyncAdmission.lua
+Modules\MacroTool.lua
+Modules\BanList.lua
+Modules\PostKick.lua
+Modules\BackupRestore.lua
+Modules\Recruitment.lua
+Modules\RecruitmentContext.lua
+Modules\GuildHealth.lua
+Modules\UpcomingDates.lua
+Modules\Housing.lua
+Modules\Companion.lua
+Modules\Hyperlinks.lua
+Modules\API.lua
+
+UI\Theme.lua
+UI\ScrollList.lua
+UI\MemberTooltip.lua
+UI\BlizzardRosterTooltip.lua
+UI\MainWindow.lua
+UI\KeyBindings.lua
+Modules\Launcher.lua
+UI\Settings.lua
+UI\RosterContextMenu.lua
+UI\RosterTab.lua
+UI\EventLogTab.lua
+UI\AltsTab.lua
+UI\BanListTab.lua
+UI\PostKickPrompt.lua
+UI\GuildSyncTab.lua
+UI\ExportStatsTab.lua
+UI\AnalyticsTab.lua
+UI\HousingMap.lua
+UI\UpcomingDatesPage.lua
+UI\GuildHealthTab.lua
+UI\MacroToolTab.lua
+UI\BackupRestoreTab.lua
+UI\RecruitmentTab.lua
+UI\HelpTab.lua
