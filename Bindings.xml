@@ -1,0 +1,4 @@
+<Bindings>
+    <Binding name="GUILDPARAGON_TOGGLE" category="Guild Paragon">GuildParagon_ToggleUI()</Binding>
+    <Binding name="MACRO Paragon_Tool" category="Guild Paragon" />
+</Bindings>
