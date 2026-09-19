@@ -1,0 +1,90 @@
+## Interface: 120100, 120105
+## Title: Guild Paragon
+## Notes: A modern rebuild of guild roster management — audit, alts, sync, and more.
+## Author: Earthenmist
+## Version: 1.4.1-Release
+## X-Performance-Diagnostics: 3
+## X-Performance-Revision: compression-level1-slots7-retry15
+## Category: Guild
+## IconTexture: Interface\AddOns\GuildParagon\Media\GuildParagonIcon
+
+## X-Curse-Project-ID: 1644578
+## X-Wago-ID: nGv7AqNx
+## SavedVariables: GuildParagonDB, GuildParagonPerfDB
+## OptionalDeps: GuildParagonCompanionData
+
+Libs\Libs.xml
+
+Locales\enUS.lua
+
+Core\Core.lua
+Core\Safe.lua
+Core\ChatPattern.lua
+Core\PerfTrace.lua
+Core\PerformanceRecorder.lua
+Core\FrameWork.lua
+
+Modules\EventLog.lua
+Modules\EventAttribution.lua
+Modules\CustomNotes.lua
+Modules\Labels.lua
+Modules\GRMImport.lua
+Modules\Roster.lua
+Modules\RosterRanks.lua
+Modules\Alts.lua
+Modules\Nicknames.lua
+Modules\GuildChat.lua
+Modules\GuildChatView.lua
+Modules\GuildSync.lua
+Modules\SyncAdmission.lua
+Modules\MacroTool.lua
+Modules\BanList.lua
+Modules\PostKick.lua
+Modules\BackupRestore.lua
+Modules\GuildApplicants.lua
+Modules\RecruitmentExpiry.lua
+Modules\ApplicantAudit.lua
+Modules\Recruitment.lua
+Modules\RecruitmentContext.lua
+Modules\GuildHealth.lua
+Modules\UpcomingDates.lua
+Modules\Housing.lua
+Modules\Companion.lua
+Modules\Hyperlinks.lua
+Modules\API.lua
+
+UI\Theme.lua
+UI\ScrollList.lua
+UI\MemberTooltip.lua
+UI\BlizzardRosterTooltip.lua
+UI\MainWindow.lua
+UI\KeyBindings.lua
+Modules\Launcher.lua
+UI\Settings.lua
+UI\RosterContextMenu.lua
+UI\RosterRankControl.lua
+UI\GuildInvite.lua
+UI\RosterTab.lua
+UI\EventLogTab.lua
+UI\AltsTab.lua
+UI\BanListTab.lua
+UI\PostKickPrompt.lua
+UI\GuildSyncTab.lua
+UI\ExportStatsTab.lua
+UI\AnalyticsTab.lua
+UI\HousingMap.lua
+UI\UpcomingDatesPage.lua
+UI\GuildRecruitment.lua
+UI\RecruitmentExpiry.lua
+UI\GuildMOTDEditor.lua
+UI\GuildInfoPage.lua
+UI\GuildHealthTab.lua
+UI\GuildChatTab.lua
+UI\MacroToolTab.lua
+UI\BackupRestoreTab.lua
+UI\GuildApplicantsTab.lua
+UI\RecruitmentTab.lua
+UI\HelpTab.lua
+
+Core\PerformanceHooks.lua
+UI\PerformanceReport.lua
